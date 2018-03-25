@@ -82,7 +82,6 @@ Citizen.CreateThread(function()
         end
         elseif not IsControlPressed(1, 48) then
             DrawText3D(0, 0, 0, "")
-            viewable = false
         end
     end
 end)
